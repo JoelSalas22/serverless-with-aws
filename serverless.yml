@@ -3,11 +3,15 @@ service: serverless
 provider:
   name: aws
   runtime: nodejs8.10
-  profile: femasters
-  region: us-west-1
+  profile: Development
+  region: us-east-1
   stage: dev
 
 plugins:
   - serverless-offline
 
-    
+functions:
+  # set function name
+  helloworld:
+    # The handler is the path to the file for our function
+    handler: src/helloworld.handler
