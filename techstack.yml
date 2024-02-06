@@ -1,0 +1,132 @@
+repo_name: JoelSalas22/serverless-with-aws
+report_id: dd04ae7b2e02e9d12ff6c979834d1f27
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-06T22:29:04+00:00'
+requested_by: 1Marc
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Scott Moss
+  last_updated_on: 2018-04-18 05:32:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 22.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Scott Moss
+  last_updated_on: 2018-04-18 05:32:47.000000000 Z
+- name: SuperTest
+  description: 'A library for testing node.js HTTP servers '
+  website_url: https://www.npmjs.com/package/supertest
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Scott Moss
+  last_updated_on: 2018-04-26 11:16:21.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Scott Moss
+  last_updated_on: 2018-04-18 05:32:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Scott Moss
+  last_updated_on: 2018-04-18 05:32:47.000000000 Z
+- name: Serverless
+  description: The most widely-adopted toolkit for building serverless applications
+  website_url: https://github.com/serverless/serverless
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/5095/serverless-logo.png
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Scott Moss
+  last_updated_on: 2018-04-18 05:32:47.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/JoelSalas22/serverless-with-aws/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: Scott Moss
+  last_updated_on: 2018-04-18 05:32:47.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
