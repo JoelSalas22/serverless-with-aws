@@ -2,7 +2,7 @@ repo_name: JoelSalas22/serverless-with-aws
 report_id: dd04ae7b2e02e9d12ff6c979834d1f27
 version: 0.1
 repo_type: Public
-timestamp: '2024-02-06T22:29:04+00:00'
+timestamp: '2024-02-29T19:55:48+00:00'
 requested_by: 1Marc
 provider: github
 branch: master
@@ -59,7 +59,7 @@ tools:
   last_updated_by: Scott Moss
   last_updated_on: 2018-04-18 05:32:47.000000000 Z
 - name: SuperTest
-  description: 'A library for testing node.js HTTP servers '
+  description: A library for testing node.js HTTP servers
   website_url: https://www.npmjs.com/package/supertest
   version: 3.0.0
   license: MIT
